@@ -11,6 +11,7 @@ import JobListing from './pages/job-listing';
 import JobPage from './pages/job';
 import ApplyJob from './pages/Applyjob';
 import ApplicationSuccess from './pages/ApplicationSuccess';
+import MyReferrals from './pages/MyRefferals';
 import { ThemeProvider } from './components/theme-provider';
 const router = createBrowserRouter([
   {
@@ -52,7 +53,10 @@ const router = createBrowserRouter([
         path:'/success',
         element:<ApplicationSuccess/>
       },
-    
+       {
+        path:'/myrefferals',
+        element:<MyReferrals/>
+      },
     
       
     ],
